@@ -1,0 +1,27 @@
+{
+  "name": "xlsx uploader_bot",
+  "version": "1.0.0",
+  "description": "Telegram_bot for uploading files to Opencart 4.0.1.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js", 
+	"work": "pm2 start index.js"
+  },
+  "keywords": [
+    "Telegram_bot",
+    "JavaScript",
+    "Opengram"
+  ],
+  "author": "BFF",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.3.4",
+    "dotenv": "16.0.3",
+    "mysql2": "3.2.0",
+    "nodemon": "2.0.22",
+    "opengram": "0.2.0-beta.1",
+    "read-excel-file": "5.6.1",
+    "xlsx": "0.18.5"
+  }
+}
